@@ -1,0 +1,133 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Shareious\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-24 07:41+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: admin/settings-callbacks.php:326 admin/settings-callbacks.php:356
+msgid "Advanced"
+msgstr ""
+
+#: admin/settings-callbacks.php:327
+msgid "Advanced settings:"
+msgstr ""
+
+#: admin/settings-callbacks.php:190
+msgid "Animation Hover In"
+msgstr ""
+
+#: admin/settings-callbacks.php:207
+msgid "Animation Hover Out"
+msgstr ""
+
+#: admin/settings-callbacks.php:237
+msgid "Choose color"
+msgstr ""
+
+#: admin/settings-callbacks.php:296
+msgid "Choose your prefered networks:"
+msgstr ""
+
+#: admin/settings-callbacks.php:400
+msgid "Deactivate Shareious?"
+msgstr ""
+
+#: admin/settings-callbacks.php:260
+msgid "Don't activate Shareious on certain images:"
+msgstr ""
+
+#: admin/settings-callbacks.php:221
+msgid "Drag to share"
+msgstr ""
+
+#: admin/settings-callbacks.php:333
+msgid "Enable animation"
+msgstr ""
+
+#: admin/settings-callbacks.php:16
+msgid "Facebook App Id"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://sultanaionut.com/shareious"
+msgstr ""
+
+#: admin/settings-callbacks.php:265
+msgid "If height of image is smaller than:"
+msgstr ""
+
+#: admin/settings-callbacks.php:262
+msgid "If width of image is smaller than: "
+msgstr ""
+
+#: admin/settings-callbacks.php:259
+msgid "Ignore images"
+msgstr ""
+
+#: admin/settings-callbacks.php:173
+msgid "Live Animation"
+msgstr ""
+
+#: admin/settings-callbacks.php:315
+msgid "Please enter your credentials:"
+msgstr ""
+
+#: admin/settings-callbacks.php:219
+msgid "Select a sharing mode:"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Share you images in a simple and unique way with fancy animations. Drag or "
+"click the social buttons to share"
+msgstr ""
+
+#. Name of the plugin
+msgid "Shareious"
+msgstr ""
+
+#: admin/settings-callbacks.php:218
+msgid "Sharing modes"
+msgstr ""
+
+#: admin/settings-callbacks.php:314
+msgid "Social identities"
+msgstr ""
+
+#: admin/settings-callbacks.php:355
+msgid "Social Identity"
+msgstr ""
+
+#: admin/settings-callbacks.php:295 admin/settings-callbacks.php:354
+msgid "Social Networks"
+msgstr ""
+
+#: admin/settings-callbacks.php:234
+msgid "Special share"
+msgstr ""
+
+#. Author of the plugin
+msgid "Sultana Ionut"
+msgstr ""
+
+#: admin/settings-callbacks.php:221
+msgid "This option allows you to share by dragging the social buttons"
+msgstr ""
+
+#: admin/settings-callbacks.php:245
+msgid "This option allows you to share using just a button"
+msgstr ""
+
+#: admin/settings-callbacks.php:31
+msgid "Twitter Username"
+msgstr ""

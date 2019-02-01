@@ -1,0 +1,567 @@
+@import 'animate';
+
+$light-gray: #f9f9f9;
+$white:white;  
+$blue : #0085cc;
+$facebook :#3B5998;
+$twitter :#55ACEE;
+$tumblr :#34465D;
+$pinterest :    #CC2121;
+$reddit :    #ff4500;
+$digg: black;
+$delicious :#0076e8;
+$linkedin : #007bb6;
+$odno : #F58220;
+$googlePlus :#dc4b3f;
+$vk : #4c75a3;
+
+
+.tr{
+    transition:all 0.3s; 
+} 
+
+// For admin menu image
+#adminmenu .toplevel_page_shareious img {
+    max-width: 20px;
+    padding: 5.5px 0 0 0;
+}
+
+.shareious-admin {
+     .clearfix{
+            &:after{
+                content:''; 
+                display:table;
+                clear:both;
+            }
+        }
+    hr{
+        margin:20px 0;
+        clear:both;
+    }
+
+    &-title{ 
+        font-size: 3.4em;
+        background:$blue; 
+        margin: 0;
+        text-align:center;
+        padding: 1.1em 0 0em;
+        border-top-left-radius:3px;
+        border-top-right-radius:3px;
+        span{
+        	vertical-align: top;
+			padding: 32px 0 0 13px;
+			/* display: block; */
+			position: relative;
+			top: 23px;
+			font-size: 43px;
+			color: white;
+			font-family: "Arial";
+			font-weight: 500;
+        }
+        img{
+        	width:54px;
+        }
+    }
+    &-wrap{
+        //         background:white;
+        padding: 0px;
+        margin: 20px 20px 0px 0; 
+    }
+    &_network_tabs_list{
+        padding-bottom:13px;
+        position:relative;
+        strong, input{
+            top:5px;
+        }
+        
+    }
+
+   .input{
+   	display:table;
+  		  input{
+  		  	float:left;
+            width: 330px;
+            height: 32px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+            background-color: #fff;
+            -webkit-box-shadow: 1px 1px 2px rgba(35,31,32,.2);
+            -moz-box-shadow: 1px 1px 2px rgba(35,31,32,.2);
+            box-shadow: 1px 1px 2px rgba(35,31,32,.2);
+            padding-left: 10px;
+            margin-top: 5px;
+            border: 1px solid #f2f2f2;
+            margin-right: 17px;
+       }
+       input + label, label{
+                font-size: 15px;
+                float:left;
+                padding-top: 11.2px;
+                ~ span{
+                	padding-top: 11.2px;
+                	float:left;
+                } 
+       }
+       label{
+       	margin-right:17px;
+       }
+       &.shareious_ignore_width{
+       	label{
+       		min-width:220px;
+       		margin-bottom:25px;
+       	}
+       }
+  	}
+  
+    .shareious_social_identity{
+      
+        &_item{
+         display:table;
+         padding-bottom:13px;
+    
+       }
+    }
+&-headers   {
+    &-list{
+        background: $blue;
+        display:block;
+        margin:0;
+        padding: 20px 20px 0px;
+       
+        li{ 
+            background: #dff2ff;
+            border: 0;
+            display: inline-block;
+            padding: 12px 15px;
+            cursor:pointer;
+            margin:0 5px 0 0;
+            float: left;
+            list-style-type: none;
+            position:relative;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 600;
+            @extend .tr;
+            border-top-left-radius: 3px;
+    		border-top-right-radius: 3px;
+            &:hover{
+               background: $white;
+           }
+           &:before{
+             content:'';
+             @extend .tr;
+             position:absolute;
+             left:0;
+             right:0;
+//              height:2px;
+             display:block;
+             top:0;
+             background:transparent;
+           }
+           &.active{
+            background: $white;
+         &:before{
+             background-color: $blue;
+         }
+         &:after{
+             content:'';
+             position:absolute;
+             left:0;
+             right:0;
+             height:5px;
+             display:block;
+             bottom:-5px;
+             background:$white; 
+             
+         }
+         
+     }
+ }
+}
+}
+
+&-tabs{
+	
+    .advanced_effects{
+        .explanation{
+            float:left;
+            clear:left;
+            margin: 7px 0 0 0;
+        }
+
+        .shareious_social_buttons{
+            float: right;
+            position:relative;
+            opacity: 0.4;
+            overflow:hidden;
+            pointer-events: none;
+            text-align: center;
+            display: table;
+            border: 1px solid $blue;
+            padding:  0 0 10px 0;
+            background:$light-gray;
+            @extend .tr;
+            border-radius:3px;
+            box-shadow:1px 1px 2px rgba(35, 31, 32, 0.2);
+       
+        
+            span.live_animation {
+                display: block;
+                font-size:15px;
+                background:$blue;
+                padding:13px 25px; 
+                
+                margin-bottom:10px;
+          
+
+                b:last-child{
+                    color:white;
+                }
+
+                b:first-child{
+                    margin-right:2px;
+                    
+                    &:before{
+                        color:white;
+                    }
+                }
+            }
+            i{
+                margin:10px 10px;
+                &:first-of-type{
+                    margin-left:20px;
+                }
+                &:last-of-type{
+                    margin-right:20px;
+                }
+            }
+        }
+        strong{
+            float:left;
+        }
+        .select_holder{
+            opacity:0.4;
+            float:left;
+            @extend .tr;
+            clear:left;
+            pointer-events:none;
+            &:nth-of-type(3){
+//                 margin-bottom:20px;
+            }
+            span{ 
+             padding: 6px 0 0 15px; 
+             float:left;
+             font-size:15px;
+             margin: 15px 0;
+         }
+         select{
+            float:left;
+            min-width:183px;
+            height: 32px;
+            cursor:pointer;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+            background-color: #fff;
+            -webkit-box-shadow: 1px 1px 2px rgba(35, 31, 32, 0.2);
+            -moz-box-shadow: 1px 1px 2px rgba(35, 31, 32, 0.2);
+            box-shadow: 1px 1px 2px rgba(35, 31, 32, 0.2);
+            padding-left: 10px;
+            margin: 15px 0 0;
+            border: 1px solid #f2f2f2;
+        }
+
+
+    }
+    }
+
+.drag_to_share_holder{
+   position:relative;
+   margin: 25px 0;
+   overflow: hidden;
+}
+
+.special_share_holder{
+    position:relative;
+
+    .shareious_choose_color{
+    opacity:0.4;
+    pointer-events:none;
+    background:$light-gray;
+    @extend .tr;
+    &_header{
+        display: block;
+        font-size: 15px;
+        background: #2e9be2;
+        padding: 13px 25px;
+        margin-bottom: 10px;
+        text-align:center;
+        b{
+            color:white;
+            &:first-child{
+                margin-right:2px;
+            }
+        }
+
+        + div{
+            padding: 10px 20px 5px;
+        }
+    }
+
+    float:right;
+    border: 1px solid #2e9be2;
+    padding: 0 0 10px 0;
+    background: #f9f9f9;
+    border-radius: 3px;
+    display:table;
+    box-shadow: 1px 1px 2px rgba(35, 31, 32, 0.2);
+
+    .fa-share-alt{
+        	color: #fff;
+			text-align: center;
+			display: block;
+			width:32px;
+			height:32px;
+			z-index:1000;
+			background: #fe8c00;
+			float:left;
+			clear:left;
+            margin-right:20px;
+			@extend .tr;
+			
+			&:hover{
+				box-shadow: 4px 4px 0px rgba(75, 45, 8, 0.77);
+			}
+			
+			&:before{
+				line-height:32px;
+				text-align:center;
+				font-size:21px;
+				display:block;
+				border-radius:3px;
+			}
+    }
+     .wp-picker-container{
+        display:table;
+        float:left;
+        .wp-picker-default{
+            position: static;
+            opacity: 1;
+            border-radius: 3px;
+            height: 32px;
+        }
+        .wp-color-result{
+            height: 32px;
+            cursor: pointer;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+            background-color: #fff;
+            -webkit-box-shadow: 1px 1px 2px rgba(35, 31, 32, 0.2);
+            -moz-box-shadow: 1px 1px 2px rgba(35, 31, 32, 0.2);
+            box-shadow: 1px 1px 2px rgba(35, 31, 32, 0.2);
+            padding-left: 32px;
+            border:none;
+            *{
+                height:100%;
+                line-height:32px;
+            }
+            min-width:120px;
+        }
+         .iris-picker{ 
+        position:absolute;
+    bottom: 74px;
+    right: 0px;
+         }
+    }
+
+    }
+    input:checked ~ .shareious_choose_color, ~ explanation{
+        opacity:1;
+        pointer-events:all;
+    }
+
+    + .shareiouscolorpicker{
+        position:static;
+        opacity:1;
+    }
+}
+
+input:checked ~ .select_holder, input:checked ~ .shareious_social_buttons {
+        opacity:1;
+        pointer-events:all;
+  }
+
+.custom-input{
+    position:relative;
+
+    strong{
+        display: inline-block;
+        width: 52px;
+        overflow: hidden;
+        cursor: pointer;
+        position: relative;
+        height: 22px;
+        padding: 0;
+        line-height: 19px;
+        transition: background-color .2s ease-in;
+        -webkit-border-radius: 11px;
+        -moz-border-radius: 11px;
+        border-radius: 30px;
+        background-color: #c4c4c4;
+        -webkit-box-shadow: inset 0 2px 1px rgba(0,0,0,.11);
+        -moz-box-shadow: inset 0 2px 1px rgba(0,0,0,.11);
+        box-shadow: inset 0 2px 1px rgba(0,0,0,.11);
+        &:before{
+            content: "";
+            display: block;
+            width: 18px;
+            height: 18px;
+            margin: 0;
+            position: absolute;
+            top: 2px;
+            bottom: 0;
+            right: 32px;
+            background-color: #fff;
+            -webkit-box-shadow: 0 0 3px rgba(0,0,0,.1);
+            -moz-box-shadow: 0 0 3px rgba(0,0,0,.1);
+            box-shadow: 0 0 3px rgba(0,0,0,.1);
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border-radius: 10px;
+            transition: all .2s ease-in 0s;
+        }
+        &:after{
+            content: "OFF";
+            display: block;
+            color: #FFF;
+            position: absolute;
+            top: 2px;
+            bottom: 2px;
+            right: 6px;
+            font-size: 11px;
+            font-family: Arial;
+        }
+
+    }
+    input{
+        position: absolute;
+        z-index: 1;
+        opacity: 0;
+        left: 0;
+        top: 0;
+        width: 55px;
+        height: 29px;
+        border-radius: 10px;
+    }
+    label{
+        vertical-align:top;
+        display:inline-block;
+        margin-left:17px;
+        font-size:15px;
+        span{
+            padding: 7.2px 0 0 0;
+            float: right;
+        }
+    }
+    input:focus+strong,  input+strong {
+        background: #d4d4d4;
+    }
+    input:checked+strong{
+        background: #3CAF0E;
+    }
+
+    input:checked+strong:before {
+        right: 2px;
+    }
+  
+    input:checked+strong:after{
+        content: "ON";
+        right: 27px;
+    }
+}
+
+
+padding:10px 34px 50px;
+display:none;
+border-bottom-left-radius:3px;
+border-bottom-right-radius:3px;
+border-top:1.5px solid $blue;
+
+&.shr_mtbx{
+		display: block;
+		border: none;
+		padding: 10px;
+		label span{
+			padding: 1.2px 0 0 0;
+		}
+	}
+
+h3{
+    margin-top:0px;
+    margin-bottom:30px;
+    font-weight:normal;
+    font-size:17px;
+}
+h2{
+    margin-bottom:0.6em;
+    font-size: 1.7em;
+}
+
+
+&.active{
+    display:block;
+    background-color: $white;
+}
+[ class*=fa ] {
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 2px;
+    margin-right: 15px;
+    &:before{
+        color:white;
+    }
+    
+}
+.fa-facebook-f{
+    background:$facebook;
+}
+.fa-google{
+    background:$googlePlus;   
+}
+.fa-twitter{
+    background: $twitter;
+}
+.fa-pinterest-p{
+    background:$pinterest; 
+}
+.fa-tumblr{
+    background:$tumblr;
+}
+.fa-linkedin-in{
+	background: $linkedin;
+}
+.fa-vk{
+	background: $vk;
+}
+.fa-odnoklassniki{
+	background: $odno;
+}
+.fa-reddit-alien{
+	background: $reddit;
+}
+.fa-digg{
+	background: $digg;
+}
+.fa-delicious{
+	background: $delicious;
+}
+
+
+}
+}
